@@ -39,12 +39,13 @@ Room: [Room](files/bmc_map.jpg)
 - **15:00-17:00** [Exercise: Graphics in R](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
 **Friday**
-Room: [Room](files/bmc_map.jpg)
+- Room: [Room](files/bmc_map.jpg)
 - **09:00-10:00** [Exercise: Graphics in R ctd](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 - **10:00-11:00** Live presentation: More on explanatory programming and intro to R package anatomy (Thomas Källman)
 - **11:00-12:00** Q&A session (Thomas Källman)
 - **12.00-13.00** Lunch
 - **13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
+
 
 **Extra Material**
 - [Color names list in R](files/Rcolor.pdf)
@@ -52,5 +53,7 @@ Room: [Room](files/bmc_map.jpg)
 - [Naming conventions in R](files/Rnaming.pdf)
 - [Introduction to statistical tests in R](files/statests.pdf)
 - [Bioconductor examples](https://f1000research.com/channels/bioconductor)
+
+
 
 
