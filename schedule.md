@@ -38,13 +38,13 @@ Room: [Room](files/bmc_map.jpg)
 - **14:00-15:00** [Lecture: Graphics in R](Lecture/PlotHandson) (Thomas Källman)
 - **15:00-17:00** [Exercise: Graphics in R](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
-**Friday**
-- Room: [Room](files/bmc_map.jpg)
-- **09:00-10:00** [Exercise: Graphics in R ctd](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
-- **10:00-11:00** Live presentation: More on explanatory programming and intro to R package anatomy (Thomas Källman)
-- **11:00-12:00** Q&A session (Thomas Källman)
-- **12.00-13.00** Lunch
-- **13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
+**Friday**\
+Room: [Room](files/bmc_map.jpg)\
+**09:00-10:00** [Exercise: Graphics in R ctd](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)\
+**10:00-11:00** Live presentation: More on explanatory programming and intro to R package anatomy (Thomas Källman)\
+**11:00-12:00** Q&A session (Thomas Källman)\
+**12.00-13.00** Lunch\
+**13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)\
 
 
 **Extra Material**
