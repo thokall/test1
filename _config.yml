@@ -1,8 +1,8 @@
-title: Long Haul
+title: test1
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: http://thokall.github.io/test1
-baseurl: ""
+baseurl: "long-haul"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
