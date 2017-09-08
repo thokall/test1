@@ -5,11 +5,25 @@ menu: home
 
 [//]: # (# Description)
 
-This course provides a practical introduction to the R programming
-language. The material is somewhat adapted to an life scientist
-audience and the target audience have an interest in using R for their
-data analysis, but there is no need with prior knowledge in R or other
-programming languages.
+This course provides a practical introduction to the writing
+of [Python](//www.python.org/) programs for the complete
+novice. Participants are lead through the core aspects of Python
+illustrated by a series of example programs. Upon completion of the
+course, attentive participants will be able to write simple Python
+programs from scratch and to customize more complex code to fit their
+needs.
+
+> The craft of programming is about taking design decisions to avoid
+> overwhelming complexity and permit easy maintenance over time,
+> insuring reliability (which goes beyond debugging) and utilizing
+> computer resources efficiently.
+
+* The course is suitable for complete beginners and assumes no prior
+  programming experience (beyond the ability to use a text editor).
+* A very basic knowledge of UNIX would be an advantage, such as
+  navigating through folders and issuing commands at a shell
+  prompt. We will not teach Unix in detail: Other course are available
+  at SciLifeLab for it.
 
 > Before the first lecture, we require you to follow
 > these [preliminary steps](preliminary).
@@ -27,19 +41,19 @@ From Monday February 6<sup>th</sup>, to Friday February 10<sup>th</sup> 2017 (we
 
 During this course, you will learn about:
 
-* The basic data types in R and how to use data structures in
-  analysis.
+* Core concepts about Python syntax: Data types, blocks and indentation, variable scoping, iteration, functions, methods and arguments
 * Different ways to control program flow using loops and conditional tests
-* Howto to use R studio to generate reproducible results
-* How to download packages that can extend the functions in R
+* Regular expressions and pattern matching
+* Writing functions and best-practice ways of making them usable
 * Reading from and writing to files
-* Generate beutiful graphics from suitable data
+* Code packaging and Python libraries
+* How to work with biological data using external libraries.
 
 # Learning Outcomes
 
 After this course you should be able to:
 
-* Write and run R scripts
+* Edit and run Python code
 * Write file-processing python programs that produce output to the terminal and/or external files.
 * Create stand-alone python programs to process biological data
 * Know how to develop your skills in Python after the course (including debugging)

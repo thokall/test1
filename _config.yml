@@ -1,7 +1,7 @@
 ###########
 # site.url, site.title
 
-url:   'https://nbisweden.github.io/Rcourse'
+url:   'https://nbisweden.github.io/PythonCourse'
 
 #google_analytics: 'UA-23985298-11'
 
@@ -19,6 +19,7 @@ defaults:
       layout: vt17
 
 
+
 ########
 # more settings
 
@@ -33,7 +34,7 @@ sass:
 
 highlighter: rouge
 
-
+  
 # enable vendor prefixes
 gems:
   - octopress-autoprefixer

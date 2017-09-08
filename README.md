@@ -1,4 +1,4 @@
-R Courses offered by NBIS
+Python Courses given by NBIS
 
-* [vt17](Lund ht17)
+* [vt17](vt17)
 * ...
