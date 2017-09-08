@@ -25,3 +25,4 @@ lsi: false
 
 kramdown:
   input:	GFM
+  hard_wrap:	TRUE
