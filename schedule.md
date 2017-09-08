@@ -7,13 +7,13 @@ title:  'Schedule'
 
 **Monday**
 Room: [Room](files/bmc_map.jpg)
-- **09.00-09.15** [Registration and Welcome](Lectures/XXX.pdf) (John Doe)
-- **09:15-10:00** [Lecture: Introduction to R programming](Lectures/Lecture_1_-_Introduction.pdf)(Marcin Kierczak)
-- **10:15-10:45** [Lecture: Introduction to R environment](Lectures/Lecture_2_-_REnvironment.pdf)(Marcin Kierczak)
-- **11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)
-- **12:00-13:00** Lunch
-- **13:00-15:00** [Lecture: Elements of R programming - variable types, operators](Lectures/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)
-- **15:00-17:00** [Exercise: Data types in R](Exercises/DataTypes) (Marcin Kierczak, Dag Ahren, Marus Ringner)
+**09.00-09.15** [Registration and Welcome](Lectures/XXX.pdf) (John Doe)
+**09:15-10:00** [Lecture: Introduction to R programming](Lectures/Lecture_1_-_Introduction.pdf)(Marcin Kierczak)
+**10:15-10:45** [Lecture: Introduction to R environment](Lectures/Lecture_2_-_REnvironment.pdf)(Marcin Kierczak)
+**11:00-12:00** [Exercise and video: Using R-studio]() (Marcin Kierczak, Dag Ahren)
+**12:00-13:00** Lunch
+**13:00-15:00** [Lecture: Elements of R programming - variable types, operators](Lectures/Lecture_3_-_Elements1.pdf) (Marcin Kierczak)
+**15:00-17:00** [Exercise: Data types in R](Exercises/DataTypes) (Marcin Kierczak, Dag Ahren, Marus Ringner)
 
 **Tuesday**
 Room: [Room](files/bmc_map.jpg)
@@ -38,13 +38,13 @@ Room: [Room](files/bmc_map.jpg)
 - **14:00-15:00** [Lecture: Graphics in R](Lecture/PlotHandson) (Thomas Källman)
 - **15:00-17:00** [Exercise: Graphics in R](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
-**Friday**\
-Room: [Room](files/bmc_map.jpg)\
-**09:00-10:00** [Exercise: Graphics in R ctd](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)\
-**10:00-11:00** Live presentation: More on explanatory programming and intro to R package anatomy (Thomas Källman)\
-**11:00-12:00** Q&A session (Thomas Källman)\
-**12.00-13.00** Lunch\
-**13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)\
+**Friday**
+Room: [Room](files/bmc_map.jpg)
+**09:00-10:00** [Exercise: Graphics in R ctd](Exercise/PlotHandson) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
+**10:00-11:00** Live presentation: More on explanatory programming and intro to R package anatomy (Thomas Källman)
+**11:00-12:00** Q&A session (Thomas Källman)
+**12.00-13.00** Lunch
+**13:00-16.00** [Graphics in R: ggplot2](Exercises/ggplots) (Thomas Källman, Nikolay Oskolkov, Fredrik Levander)
 
 
 **Extra Material**
