@@ -1,161 +1,166 @@
 ---
-menu: preliminary
-title: 'Before the first lecture...'
+menu: Preparations
+title: 'Preparations for the course'
 ---
 
-We require you to have a laptop (with Linux, or Mac) for the practical
-exercises. If you do not have one, or want to borrow one from us,
-please contact us at education@scilifelab.uu.se before the beginning
-of the course.
+# Pre-course Material
 
-_Before_ the first lecture, we have the 3 following requirements:
+You are not required to have any experience with the R language nor
+with the software R-studio to follow the course, but to save time and
+get a smooth start we ask everyone to have the latest version of R and
+R studio installed on your computer at course start.
 
-1. [Install Python](#how-to-install-python) on your machine (obviously),
-2. Check that the installation went fine, by [running a given simple script](#test),
-3. Make sure you have a [proper text editor](#text-editor)
+# Software needed for the course
 
+For the course we will use the latest version of R and R-studio. Both
+of these works on computers running Linux, Windows and Macintosh
+operative systems. R-studio is both a set of tools and an editor that
+facilitates the use of R and in many ways create a superior computing
+environment that integrates directly with R. Over the last years it has
+become a very popular tool and has for many become the standard way of
+interacting with R.
 
-----
+Note that on same operative systems it will be easier to install and
+run R and R-studio if you have an administrator account on your
+computer and hence are allowed to install software on your machine. If
+you do not have these privileges please ask your system administrator
+to install the latest version of R and R-studio.
 
-# How to install Python
+## Install R
 
-On the [Python website](//www.python.org/downloads/), the latest
-version available is `3.6.0`. Please, choose to install the version
-`3.5.0` or above.  You can install the latest Python
-on
-[Windows](//www.python.org/downloads/windows/),
-[Mac OS X](//www.python.org/downloads/mac-osx/)
-or [Linux/Unix](//www.python.org/downloads/source/).
+1.  Go to [CRAN](https://cran.rstudio.com)
+2.  Click on the link corresponding to your operative system
+3.  Download the recommended files for your system.
+4.  Run the installer or move the downloaded files to suitable place on
+    your computer.
 
+### Details for Windows
 
-### On Windows
+Once you clicked on the "Download R for Windows" you will come to a
+new web page where you will have a set of options. Click on the first
+link named "base". This will take you to the web page entitled "R-3.4.1
+for Windows" where you can download the "R-3.4.1-win.exe"
+that will can be run to install R on your computer.
 
-You can borrow a Linux laptop where we have installed Python 3.5+ for you.
-If you insist on using your own Windows machine, here are the [installation steps on Windows](//docs.python.org/3.5/using/windows.html#installation-steps).
-The installer should look like:
+### Details for Macintosh
 
-![Installing Python with a Windows MSI](../img/Python-3.5.0-Installer-Windows.png)
+Once you clicked on the "Download R for Macintosh" you will come to a
+new web page where you will have a set of options. Unless you have an
+old version of your operative system you should select the first link
+named "R-3.4.1.pkg" that will download R to your computer. If you are
+not sure what version you are running click the apple on the top left
+of your screen and select "About this mac" (Om den här datorn). In
+case you are running something older than 10.9, you should instead
+pick the "R-3.2.1-snowleopard.pkg" to install. Note that this will not
+give you the latest version of R, but it will be sufficient for most
+sections of the course.
 
-### On Mac OS X
+You can then double-click the downloaded package that will prompt you
+with some questions for installation details. Stick with the default
+settings and you should be fine.
 
-Since Mac OS X 10.8, Python 2.7 is pre-installed by Apple. This is an incompatible version with this course.
-You should instead [download the installer](//www.python.org/ftp/python/3.5.0/python-3.5.0-macosx10.6.pkg) for the version 3.5.0 (or choose a newer one), double-click and follow the instructions.
+### Details for Linux
 
-![Installing Python on Mac OS X](../img/Python-3.5.0-Installer-OSX.png)
-                                            
-More information can be found on [docs.python.org/3.5](//docs.python.org/3.5/using/mac.html)
+Once you clicked on the "Download R for Linux" you will come to a
+new web page where you can select the linux version you use. On most
+distributions this will be via a software install system like yum or
+apt-get. If you run this make sure that you update your information to
+the installer first, otherwise you might end up installing at outdated
+version of R. For some systems you might need to install not only
+r-base, but also r-devel or you will lack important features of your R
+installation.
 
-> IMPORTANT NOTE: If you are not interested in a system-wide version
-> of Python3, you can use `pyenv` to easily switch between multiple
-> versions of Python. You
-> can
-> [install pyenv from GitHub](//github.com/yyuu/pyenv#installation). After
-> installation, you can install version 3.5.0 by issuing the following
-> command in your Terminal.
-> 
-> $ pyenv install 3.5.0
+## Install R-studio
 
-### On Linux/Unix
+Go to the
+web page [rstudio](https://www.rstudio.com/products/rstudio/download/)
+download the installer corresponding to your operative system. Unpack
+the installer and install the app on a suitable place on your system.
 
-You probably
-know [what to do](//docs.python.org/3.5/using/unix.html) if we
-give you
-the
-[Python 3.5.0 sources](//www.python.org/ftp/python/3.5.0/Python-3.5.0.tgz). You
-are surely familiar with the classic cycle:
+## Test your environment
 
-```bash
-./configure
-make
-make test
-sudo make install
-```
+If the installation above went without any problem you should be able
+to fire up R-studio and see something like the following:
+<img src="files/R-studio.png" style="width:400px;" />
 
-----
+If you do not see a screen like this one please send an email to
+thomas.kallman@nbis.se describing the error together with the name of
+your operative system and version of R/R-studio that you are trying to
+install.
 
-# Testing your installation {#test}
+# Other tools
 
-Start your favorite terminal and check the Python version. Type at the
-prompt (ie where the `$` sign is):
+To be able to follow in this class we do recommend to use R-studio,
+but in case it does not fit your needs all the R code we describe will
+of course work irrespective of the environment that you work with. The main
+benefits of using r-studio is that there are bundled packages with
+this software that greatly helps for documenting the R-code that you
+use and write.
 
-```bash
-$ python --version
-```
+While this is NOT absolutely necessary, the explanatory programming
+approach we are using in the course will be easier to follow if you
+have a distribution of LaTeX system installed on your machine so that
+the R-Studio can call it. Please follow guidelines on
+[LaTeX site](http://www.latex-project.org/get/)
 
-or start the python interpretor
+Mac users can follow [this link](https://www.tug.org/mactex/mactex-download.html)
+and installation instructions therein.
 
-```bash
-$ python
-```
+Some commonly used tools besides R-studio are:
 
-[//]: # (Upon successful installation, you should see something like)
+-   The built in GUI that comes with R.
+    Gives the basic functionality and if you are not a heavy R users
+    this might be suitable as it comes with the R package.
+-   ESS, emacs speaks statistics. If you are already using emacs this
+    offers nice possibities to interact with R from emacs. It offers
+    nice debugging features as well as support for building packages.
+-   Any text editor that you are happy with. This means that you can focus on
+    writing your code and then just run the code from within R using
+    copy/paste or by submitting all your code as scripts to R.
 
-[//]: # (![upon successful installation](../img/python-in-terminal.png))
+# Useful R online resources
 
-## Running a test script
+If you are eager to try things out before the course starts the
+following links goes to some useful material on using R.
 
-Download
-this
-[test script](//raw.githubusercontent.com/NBISweden/PythonCourse/vt17/test.py) (from
-the NBIS GitHub location for this instance of the course), and in your
-terminal, run
+- [Best first R tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)
+  A nice self learn tutorial to R, introducing many central concepts to R.
+- [A short introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
+  A very short intro to using R.
+- [An introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
+  A fairly comprehensive document on R. As a beginner one can start
+  with Appendix A that is a short practical session.
+- [The art of R programming](http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf)
+  A pdf copy of a book that deals with R as a programming
+  language. Is a great source of information for anyone that wants to
+  use R not only as a statistical analysis tools, but also use it as a
+  more general programming language.
+- [R for data science](http://r4ds.had.co.nz)
+  The basics of getting data into R, clean the data do your
+  analysis. One of the authors of this book Hadley Wickham is also
+  behind R-studio and has published several books on different aspects
+  of using R, many of them available for free via his web page. He has
+  also created many packages for R that facilitate structured data
+  analysis. His most popular packages is ggplot2 for creating beautiful
+  graphics with limited set of commands. This is one of the few
+  external packages that we will use more extensively in
+  class. Besides ggplot2 he has created many other packages that make
+  use of novel objects and often use slightly different R syntax to
+  interact with them. This means that code using them will look
+  different to most other R code. If you like this way of working,
+  there is a whole set of packages often referred to as
+  the [tidyverse](https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0)
+  that offers a more unified interaction with objects and functions
+  under this approach to data analysis.
+- [R-help mailing list](https://stat.ethz.ch/mailman/listinfo/r-help)
+  List of R-help mailing lists, where one often can find hints and
+  solutions to commonly occuring problems. Please read the posting
+  guide carefully before publishing any questions
 
-```bash
-$ python test.py
-```
+# Useful Non-R specific online resources
 
-...in the folder where the script resides. If this works fine, you
-should see the current time printed with "big digits" ;)
-
-![successful test](../img/python-test.png)
-
-Alternatively, copy-paste that line at the prompt
-
-```bash
-curl -s https://raw.githubusercontent.com/NBISweden/PythonCourse/vt17/test.py | python
-```
-
-----
-
-# Using a proper Text Editor {#text-editor}
-
-We are going to type (a lot of) Python code, so you'd better have a
-good text editor. This is useful for several reasons: The text editor
-can highlight the Python keywords and handles the particulars
-regarding tabulations (which we will introduce in the course).
-
-Emacs and Vim are probably the best text editors, albeit for
-tech-savvy people. If you are not the latter
-kind, [Sublime Text](//www.sublimetext.com/)
-or [Atom](//atom.io/) are excellent cross-platform
-alternative. You should probably customize it to your taste first.
-
-![Sublime Text and Python](//camo.githubusercontent.com/adf6408a6a64d72440aff6d5e84e82d94865dd40/68747470733a2f2f636f6c6f727375626c696d652e6769746875622e696f2f436f6c6f727375626c696d652d506c7567696e2f636f6c6f727375626c696d652e676966)
-
-----
-
-# Jupyter notebooks
-
-In the course, we will write Python code as standalone files. However,
-during the lecture, we will also use Jupyter
-notebooks. [Jupyter](//jupyter.org/) is a web-based tool which
-allows us to evaluate our code line by line.  The Jupyter files are
-called
-[notebooks](//jupyter.readthedocs.io/en/latest/running.html) and
-will serve a single purpose in this course: a _quick demonstration_ of
-Python code. It is therefore convenient, though optional,
-to
-[install Jupyter](//jupyter.readthedocs.io/en/latest/install.html) in
-advance.
-
-![Running the notebook](//jupyter.readthedocs.io/en/latest/_images/tryjupyter_file.png)
-
-
-----
-
-# Impatient about the first lecture?
-
-Whet your appetite on
-the [Python tutorial](//docs.python.org/3/tutorial/) or
-an
-[informal introduction to Python](//docs.python.org/3/tutorial/introduction.html).
+- [Stackoverflow](http://stackoverflow.com)
+  Online community for programmers.
+-
+- [Biostars/](http://www.biostars.org/)
+  Online Q and A resource aimed at bioinformatics
