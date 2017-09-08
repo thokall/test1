@@ -1,28 +1,26 @@
-########
-# more settings
+title: Long Haul
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-# markdown: kramdown
+url: http://thokall.github.io/test1
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# pygments: true
+markdown: kramdown
 highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
 
-sass:
-  sass_dir: css
-  style:    expanded
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
 
-# enable emojis
-gems:
-  - jemoji
-
-
-
-exclude:
-- README.md
-
-
-safe: true
-lsi: false
-
-kramdown:
-  input:	GFM
-  hard_wrap:	TRUE
+social:
+   github:
+   twitter:
+   facebook:
+   email: thokall@me.com
